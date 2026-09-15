@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.topindeling{
+    margin: auto;
+    background-color: aqua;
+    padding-top: 1vw;
+}
+.indelning{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 400px;
+}
+.banner{
+    
+    text-align: left;
+    border: 2px solid rgb(15, 15, 15);
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 5%;
+    
+}
+
+
+.Article{
+    background-color: rgb(231, 0, 0);
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: auto;
+}
+.uppdelingText{
+    display: grid;
+    grid-template-columns: 3fr 5fr ;
+    background-color: rgb(124, 8, 99);
+    
+}
+.Text{
+    padding: 10px ;
+    border: 1px solid black;
+}
+.Article > h2{
+     border: 1px solid black; 
+    width: 15%;
+    margin : 1px;
+    
+    
+
+}
+.Article > img{
+    width: 100%;
+    margin: auto;
+    display: block;
+    border: 1px solid rgb(230, 11, 11);
+    
+}
+
+.uppdelingTextSida2{
+    display: grid;
+    grid-template-columns: 3fr 2fr 
+   
+
+}
+
+#test{
+    margin: 0;
+}
